@@ -43,6 +43,10 @@ body {
     position: relative;
     z-index: -99;
   }
+  .card {
+    margin: auto;
+    top: 15px;
+  }
   .footer {
     background-image: url(images/wallpaper.jpg);
     color: #feca57;
