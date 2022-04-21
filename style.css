@@ -30,3 +30,16 @@ body {
   .navbar-nav li .dropdown {
   color: #00a1c9;
   }
+  .main-content {
+    color: #202020;
+    margin: auto;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 10px #a5a4a4;
+            box-shadow: 4px 4px 10px ;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 500px;
+    top: 15px;
+    position: relative;
+    z-index: -99;
+  }
