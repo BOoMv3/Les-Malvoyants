@@ -51,3 +51,10 @@ body {
     justify-content: center;
     text-align: center;
   }
+  .resau {
+    height: 70px;
+    width: 70px;
+    display: inline-flex;
+    justify-content: center;
+  }
+  
