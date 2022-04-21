@@ -43,3 +43,11 @@ body {
     position: relative;
     z-index: -99;
   }
+  .footer {
+    background-image: url(images/wallpaper.jpg);
+    color: #feca57;
+    width:100%;
+    height:auto;
+    justify-content: center;
+    text-align: center;
+  }
