@@ -51,6 +51,12 @@ body {
     position: relative;
     z-index: -99;
   }
+.resau {
+  height: 70px;
+  width: 70px;
+  display: inline-flex;
+  justify-content: center;
+}
   .carousel-slide-border {
     position: relative;
     z-index: -99;
@@ -72,10 +78,23 @@ body {
     justify-content: center;
     text-align: center;
   }
-  .resau {
-    height: 70px;
-    width: 70px;
-    display: inline-flex;
-    justify-content: center;
+  p {
+    font-size:large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2%;
+  }
+  h3 {
+    font-family: fantasy;
+  }
+  h4 {
+    font-family: fantasy;
+    font-size:larger;
+    text-align: center;
+  }
+  .text-center  {
+    padding: 2%;
+  }
+  section {
+    padding: 1%;
   }
   
