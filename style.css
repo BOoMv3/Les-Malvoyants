@@ -22,6 +22,14 @@ body {
     align-items: center;
     border-radius: 50%;
   }
+  h1,h4{
+    position:relative;
+    align-content: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: fantasy;
+    color: #feca57;
+  } 
   .collapse {
     align-items: center;
     justify-content: center;
