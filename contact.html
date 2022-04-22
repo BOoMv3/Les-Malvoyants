@@ -49,5 +49,97 @@
                 </div>
             </header>
         </div>
+        <!--Formulaire de contact (Non fonctionelle)-->
+        <main class="main-content-contact">
+<section class="mb-4">
+
+    <h2 class="h1-responsive font-weight-bold text-center">Contactez-nous !</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? n'hésité pas a nous contacter via cette messagerie ! Nous somme la pour vos besoins ! </p>
+    <div class="row">
+
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Votre Nom</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Votre E-mail</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Sujet</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Votre Message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+
+            </form>
+
+            <div class="text-center text-md-center">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyé !</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Info supplementaire-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Montpelier, CP 34190, FRA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>07 86 01 XX XX</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>pro.css@live.fr</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+        </main>
+    
+        <!--Pied de page est info créateur-->
+        <footer class="footer-end">
+            <h4>Vous pouvez aussi nous retrouvée sur nos résau ! </h4>
+            <div class="resau">
+                <img src="images/facebook.png" class="img-fluid rounded-circle" alt="facebook">
+                <img src="images/twitter.png" class="img-fluid rounded-circle" alt="twitter">
+            </div>
+                <br>
+                Crée par Muller Tony. Tout droit resérvé, aucune reproduction autorisé.</br>
+                Contact: Pro.css@live.fr
+        </footer>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
