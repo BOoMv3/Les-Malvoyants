@@ -43,9 +43,18 @@ body {
     position: relative;
     z-index: -99;
   }
+  .carousel-slide-border {
+    position: relative;
+    z-index: -99;
+    
+    }
   .card {
     margin: auto;
     top: 15px;
+  }
+  .modal-body img {
+    display: block;
+    margin: auto;
   }
   .footer {
     background-image: url(images/wallpaper.jpg);
