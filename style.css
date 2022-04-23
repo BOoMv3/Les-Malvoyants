@@ -133,7 +133,7 @@ h3 span {
 .anim p {
   text-align: center;
   display: block;
-  transform: translatex(90px);
+  transform: translatey(90px);
   position: relative;
   overflow: hidden;
   animation: 1s titleAnimation cubic-bezier(0, 0.55, 0.45, 1) forwards;
