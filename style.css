@@ -29,7 +29,7 @@ h1,h4{
     font-weight: bold;
     color: #feca57;
 } 
-@media screen and (max-width:326px){
+@media screen and (max-width:370px){
   h1 {
     font-size: x-large;
   }
