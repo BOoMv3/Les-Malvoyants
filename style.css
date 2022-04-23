@@ -51,7 +51,7 @@ h1,h4{
     width: 100%;
     max-width: 1200px;
     min-height: 500px;
-    top: 15px;
+    top: 10px;
     position: relative;
     z-index: -99;
 }
@@ -156,5 +156,5 @@ h4 {
     padding: 2%;
 }
 section {
-    padding: 1%;
+    padding-bottom: 3%;
   }
