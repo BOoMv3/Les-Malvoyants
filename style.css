@@ -119,6 +119,29 @@ p {
 }
 h3 {
     font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+h3 span {
+  display: block;
+  transform: translateY(120px);
+  position: relative;
+  overflow: hidden;
+  animation: 0.9s titleAnimation cubic-bezier(0, 0.55, 0.45, 1) forwards;
+}
+.anim p {
+  text-align: center;
+  display: block;
+  transform: translatex(90px);
+  position: relative;
+  overflow: hidden;
+  animation: 1s titleAnimation cubic-bezier(0, 0.55, 0.45, 1) forwards;
+}
+@keyframes titleAnimation {
+  to {
+      transform: initial;
+  }
 }
 h4 {
     font-size:larger;
