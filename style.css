@@ -65,7 +65,8 @@ h1,h4{
     max-width: 1200px;
     min-height: 500px;
     position: relative;
-    top: 120px;
+    top: 100px;
+    overflow-x: hidden;
 }
 .resau {
   height: 50px;
