@@ -1,259 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="aveugle, malvoyant, handicap, association">
-    <meta name="description" content="Le site de l'association Les Malvoyants qui à pour vocation d'informer et de sensibiliser le public à ce handicap">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet"> 
-    <title>Association des Malvoyants</title>
-</head>
-<body>
-        <!--modal information-->
-    <div class="modal"
-        tabindex="-1"
-        role="dialog"
-        id="lectureconfirm"
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="aveugle, malvoyant, handicap, association">
+      <meta name="description" content="Le site de l'association Les Malvoyants qui à pour vocation d'informer et de sensibiliser le public à ce handicap">
+      <meta name="author" content="Muller Tony"/>
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet"> 
+      <title>Association des Malvoyants</title>
+  </head>
+    <body>
+            <!--modal information-->
+       <div class="modal"
+           tabindex="-1"
+           role="dialog"
+           id="lectureconfirm"
+           >
+           <div class="modal-dialog modal-dialog-center">
+               <div class="modal-content">
+                   <div class="modal-header">
+                       <h5 class="modal-title">Information</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                       <span aria-hidden="true">&times;</span>
+                       </button>
+                   </div>
+                   <div class="modal-body">
+                       <img src="images/information.jpg" class="img-fluid" alt="info">
+                       <p> L'association à étais crée en 2022 par Muller Tony dans le but d'aider les personnes aveugle ou malvoyants.</p>
+                       <p>Vous souhaitez nous rendre visite au siége de l'assosiation ? voici notre localistation !</p>
+                        <img src="images/map.png" class="img-fluid" alt="map">
+                       <p>Adresse: 12 avenue de nul part</br>
+                          34000, Montpelier</br>
+                          Mail: Pro.css@live.fr</br>
+                          Tel: 07.86.01.xx.xx</p>
+                   </div>
+                   <div class="modal-footer">
+                       <button type="button" class=" btn btn-outline-success" data-dismiss="modal">J'ai pris conaissance !</button>
+                   </div>   
+               </div>
+           </div>
+       </div>
+            <!--modal Newsletters-->
+        <div class="modal"
+          tabindex="-1"
+          role="dialog"
+          id="modal2"
         >
-        <div class="modal-dialog modal-dialog-center">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Information</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="images/information.jpg" class="img-fluid" alt="info">
-                    <p> L'association à étais crée en 2022 par Muller Tony dans le but d'aider les personnes aveugle ou malvoyants.</p>
-                    <p>Vous souhaitez nous rendre visite au siége de l'assosiation ? voici notre localistation !</p>
-                     <img src="images/map.png" class="img-fluid" alt="map">
-                    <p>Adresse: 12 avenue de nul part</br>
-                       34000, Montpelier</br>
-                       Mail: Pro.css@live.fr</br>
-                       Tel: 07.86.01.xx.xx</p>
-                </div>
+            <div class="modal-dialog modal-dialog-center">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Newsletter</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/newsletter.jpg" class="img-fluid" alt="projet">
+                        <h6>Les News du mois d'Avril !</h6>
+                        <p>20/04/2022: L'association ouvre son site !</p>
+                        <p>21/04/2022: L'association obtien un partenariat avec la mairie de Montpelier (34) pour apporter une aide au personnes toucher par ce handicap !</p>
+                        <p>21/04/2022: Repa offert par l'association dans un restaurant de l'herault pour nos adhérants !</p>
+                        <p>22/04/2022: Mise à jour de fonctionalité du site.</p>
+                        <p>23/04/2022: Mise en place de la page "Nos projets"</p>
+                        <hr>
+                            <p>Adresse: 12 avenue de nul part</br>
+                                34000, Montpelier</br>
+                                Mail: Pro.css@live.fr</br>
+                                Tel: 07.86.01.xx.xx</p>
+                    </div>
                 <div class="modal-footer">
-                    <button type="button" class=" btn btn-outline-success" data-dismiss="modal">J'ai pris conaissance !</button>
+                  <button type="button" class=" btn btn-outline-success" data-dismiss="modal">J'ai pris conaissance !</button>
                 </div>   
             </div>
         </div>
-    </div>
-        <!--modal Newsletters-->
-    <div class="modal"
-      tabindex="-1"
-      role="dialog"
-      id="modal2"
-    >
-        <div class="modal-dialog modal-dialog-center">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Newsletter</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="images/newsletter.jpg" class="img-fluid" alt="projet">
-                    <h6>Les News du mois d'Avril !</h6>
-                    <p>20/04/2022: L'association ouvre son site !</p>
-                    <p>21/04/2022: L'association obtien un partenariat avec la mairie de Montpelier (34) pour apporter une aide au personnes toucher par ce handicap !</p>
-                    <p>21/04/2022: Repa offert par l'association dans un restaurant de l'herault pour nos adhérants !</p>
-                    <p>22/04/2022: Mise à jour de fonctionalité du site.</p>
-                    <p>23/04/2022: Mise en place de la page "Nos projets"</p>
-                    <hr>
-                        <p>Adresse: 12 avenue de nul part</br>
-                            34000, Montpelier</br>
-                            Mail: Pro.css@live.fr</br>
-                            Tel: 07.86.01.xx.xx</p>
-                </div>
-            <div class="modal-footer">
-              <button type="button" class=" btn btn-outline-success" data-dismiss="modal">J'ai pris conaissance !</button>
-            </div>   
         </div>
-    </div>
-    </div>
-  <!--modal Donation-->
-  <div class="modal"
-      tabindex="-1"
-      role="dialog"
-      id="modal3"
-  >
-  <div class="modal-dialog modal-dialog-center">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h5 class="modal-title">Soutenez-les !</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                  <span aria-hidden="true">&times;</span>
-              </button>
+        <!--modal Donation-->
+      <div class="modal"
+          tabindex="-1"
+          role="dialog"
+          id="modal3"
+      >
+      <div class="modal-dialog modal-dialog-center">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Soutenez-les !</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <img src="images/donation.jpg" class="img-fluid" alt="logo handisport">
+                  <p>Vous souhaitez apporter votre soutien ? faire un geste est permetre à l'Association de grandir ? Vous ette au bon endroit !</p>
+                  <p>- Votre donation nous permetra d'acheter du nouveau materiel, d'organiser des évenements, des sorties des animations est surtout, de donner le sourrir à nos membres !</p>
+                  <div class="img-modal"><img src="images/paypal.png"></div>
+                  <div class="img-modal"><img src="images/cb.png"></div>
+                  <hr>
+                  <p>Adresse: 12 avenue de nul part</br>
+                    34000, Montpelier</br>
+                    Mail: Pro.css@live.fr</br>
+                    Tel: 07.86.01.xx.xx</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class=" btn btn-outline-success" data-dismiss="modal">J'ai pris conaissance !</button>
+              </div>   
           </div>
-          <div class="modal-body">
-              <img src="images/donation.jpg" class="img-fluid" alt="logo handisport">
-              <p>Vous souhaitez apporter votre soutien ? faire un geste est permetre à l'Association de grandir ? Vous ette au bon endroit !</p>
-              <p>- Votre donation nous permetra d'acheter du nouveau materiel, d'organiser des évenements, des sorties des animations est surtout, de donner le sourrir à nos membres !</p>
-              <div class="img-modal"><img src="images/paypal.png"></div>
-              <div class="img-modal"><img src="images/cb.png"></div>
-              <hr>
-              <p>Adresse: 12 avenue de nul part</br>
-                34000, Montpelier</br>
-                Mail: Pro.css@live.fr</br>
-                Tel: 07.86.01.xx.xx</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class=" btn btn-outline-success" data-dismiss="modal">J'ai pris conaissance !</button>
-          </div>   
       </div>
-  </div>
-  </div>
-    <!--Header logo et navbar-->
-    <div class="Container-fluid">    
-        <header class="header">
-           <h1><img class="logo" src="images/logo3.png">Les Malvoyants</h1>
-            <div class="colormenu">
-                <nav class="navbar navbar-dark navbar-expand-lg">
-                <button
-                    type="button"
-                    class="navbar-toggler"
-                    data-toggle="collapse"
-                    data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown"
-                    aria-expanded="false"  
-                    aria-label="toggle navigation"
-                >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Acceuil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="evenement.html" class="nav-link">Evenements</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Projet</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                </nav>
-            </div>
-        </header>
-    </div>
-    <div class="container-fluid">
-        <main class="main-content">  
-          <!--Carousel principal-->        
-            <div id="myCarousel" class="carousel-slide-border" data-ride="carousel">
-              <!-- Indications -->
-              <ol class="carousel-indicators">
-                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                 <li data-target="#myCarousel" data-slide-to="1"></li>
-                 <li data-target="#myCarousel" data-slide-to="2"></li>
-              </ol>
-              <!--Images du carrousel-->
-              <div class="carousel-inner">
-                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/aveugle.jpg" alt="homme aveugle dans le metro">
-                 </div>
-                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/aveugle3.jpg" alt="Malvoyant jouant au Goalball">
-                 </div>
-                 <div class="carousel-item">
-                  <img class="d-block w-100" src="images/aveugle4.jpg" alt="Malvoyant et sont chien pour aveugle">
-               </div>
-              </div>
-            </div>
-            <!--Slogant et texte de bienvenu -->
-            <h3>
-              <span>Mêlez-vous de ceux qui ne vous regardent pas !</span>
-            </h3>
-            <hr>
-            <div class="anim">
-            <p>
-              <span>Bienvenue sur l'Association des Malvoyants.</br>
-                Ici vous retrouverais des actualités, des informations conçernant ce handicap, des évenement qui auront lieu ainsi que des infos nous concernant.</span>
-              </p>
-            </div>
-        </main>
-            <!--Carte d'info-->
-        <section>
-            <div class="container-fluid">
-              <div class="row justify-content-around">
-                <div class="row row-cols-1 row-cols-sm-3">
-                  <article class="col p-2">
-                    <div class="card">
-                      <img src="images/information.jpg" class="card-img-top rounded-lg" alt="Information">
-                        <div class="card-body">
-                          <h5 class="card-title">Information</h5>
-                             <p class="card-texte">
-                               Dans cette catégorie vous retrouverez les informations de l'Associaton.
-                              </p>
-                               <button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#lectureconfirm">
-                                   Lire la suite...
-                               </button>
-                        </div>
+      </div>
+        <!--Header logo et navbar-->
+        <div class="Container-fluid">    
+            <header class="header">
+               <a href="index.html"><h1><img class="logo" src="images/logo3.png">Les Malvoyants</h1></a>
+                <div class="colormenu">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                    <button
+                        type="button"
+                        class="navbar-toggler"
+                        data-toggle="collapse"
+                        data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"  
+                        aria-label="toggle navigation"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Acceuil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="evenement.html" class="nav-link">Evenements</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="projets.html" class="nav-link">Nos Projets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                  </article>
-      
-                <article class="col p-2">
-                  <div class="card">
-                    <img src="images/newsletter.jpg" class="card-img-top rounded-lg" alt="">
-                      <div class="card-body">
-                        <h5 class="card-title">Newsletters</h5>
-                          <p class="card-texte">
-                            Dans cette catégorie vous retrouverez les nouveauté du site est de l'Association.
-                          </p>
-                          <button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#modal2">
-                            Lire la suite...
-                        </button>
-                      </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div class="container-fluid">
+            <main class="main-content">  
+              <!--Carousel principal-->        
+                <div id="myCarousel" class="carousel-slide-border" data-ride="carousel">
+                  <!-- Indications -->
+                  <ol class="carousel-indicators">
+                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <!--Images du carrousel-->
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/aveugle.jpg" alt="homme aveugle dans le metro">
+                     </div>
+                     <div class="carousel-item">
+                        <img class="d-block w-100" src="images/aveugle3.jpg" alt="Malvoyant jouant au Goalball">
+                     </div>
+                     <div class="carousel-item">
+                      <img class="d-block w-100" src="images/aveugle4.jpg" alt="Malvoyant et sont chien pour aveugle">
+                   </div>
                   </div>
-                </article>
-
-                <article class="col p-2">
-                  <div class="card">
-                    <img src="images/donation.jpg" class="card-img-top rounded-lg" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Soutenez-les !</h5>
-                            <p class="card-texte">
-                                Dans cette catégorie vous retrouverez les posibilités de faire un don à l'Association.
-                            </p>
-                            <button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#modal3">
-                              Lire la suite...
-                          </button>
+                </div>
+                <!--Slogant et texte de bienvenu -->
+                <h3>
+                  <span>Mêlez-vous de ceux qui ne vous regardent pas !</span>
+                </h3>
+                <hr>
+                <div class="anim">
+                <p>
+                  <span>Bienvenue sur l'Association des Malvoyants.</br>
+                    Ici vous retrouverais des actualités, des informations conçernant ce handicap, des évenement qui auront lieu ainsi que des infos nous concernant.</span>
+                  </p>
+                </div>
+            </main>
+                <!--Carte d'info-->
+            <section>
+                <div class="container-fluid">
+                  <div class="row justify-content-around">
+                    <div class="row row-cols-1 row-cols-sm-3">
+                      <article class="col p-2">
+                        <div class="card">
+                          <img src="images/information.jpg" class="card-img-top rounded-lg" alt="Information">
+                            <div class="card-body">
+                              <h5 class="card-title">Information</h5>
+                                 <p class="card-texte">
+                                   Dans cette catégorie vous retrouverez les informations de l'Associaton.
+                                  </p>
+                                   <button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#lectureconfirm">
+                                       Lire la suite...
+                                   </button>
+                            </div>
                         </div>
-                </div>
-                </article>
-                </div>
+                      </article>
+                    
+                    <article class="col p-2">
+                      <div class="card">
+                        <img src="images/newsletter.jpg" class="card-img-top rounded-lg" alt="">
+                          <div class="card-body">
+                            <h5 class="card-title">Newsletters</h5>
+                              <p class="card-texte">
+                                Dans cette catégorie vous retrouverez les nouveauté du site est de l'Association.
+                              </p>
+                              <button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#modal2">
+                                Lire la suite...
+                            </button>
+                          </div>
+                      </div>
+                    </article>
+
+                    <article class="col p-2">
+                      <div class="card">
+                        <img src="images/donation.jpg" class="card-img-top rounded-lg" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">Soutenez-les !</h5>
+                                <p class="card-texte">
+                                    Dans cette catégorie vous retrouverez les posibilités de faire un don à l'Association.
+                                </p>
+                                <button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#modal3">
+                                  Lire la suite...
+                              </button>
+                            </div>
+                    </div>
+                    </article>
+                    </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </section>
+            <!--Pied de page est info créateur-->
+            <footer class="footer">
+                <h4>Vous pouvez aussi nous retrouvée sur nos résaux ! </h4>
+            <div class="resau">
+              <img src="images/facebook.png" class="img-fluid rounded-circle" alt="facebook">
+              <img src="images/twitter.png" class="img-fluid rounded-circle" alt="twitter">
             </div>
-          </div>
-        </section>
-        <!--Pied de page est info créateur-->
-        <footer class="footer">
-            <h4>Vous pouvez aussi nous retrouvée sur nos résaux ! </h4>
-        <div class="resau">
-          <img src="images/facebook.png" class="img-fluid rounded-circle" alt="facebook">
-          <img src="images/twitter.png" class="img-fluid rounded-circle" alt="twitter">
-        </div>
-        <br>
-            Crée par Muller Tony. Tout droit resérvé, aucune reproduction autorisé.</br>
-            Contact: Pro.css@live.fr
-        </footer>
-        <!--Script-->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+            <br>
+                Crée par Muller Tony. Tout droit resérvé, aucune reproduction autorisé.</br>
+                Contact: Pro.css@live.fr
+            </footer>
+            <!--Script-->
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
