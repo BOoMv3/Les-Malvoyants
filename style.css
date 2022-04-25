@@ -65,8 +65,9 @@ h1,h4{
     max-width: 1200px;
     min-height: 500px;
     position: relative;
-    top: 100px;
+    top: 10px;
     overflow-x: hidden;
+    z-index: -99;
 }
 .resau {
   height: 50px;
@@ -104,17 +105,6 @@ h1,h4{
   background-image: url(images/wallpaper.jpg);
   color: #feca57;
   width:100%;
-  height:auto;
-  justify-content: center;
-  text-align: center;
-}
-.footer-end {
-  background-image: url(images/wallpaper.jpg);
-  color: #feca57;
-  position:relative;
-  bottom: -206px;
-  width:100%;
-  padding-top:0;
   height:auto;
   justify-content: center;
   text-align: center;
