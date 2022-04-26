@@ -67,8 +67,14 @@ h1,h4{
     position: relative;
     top: 10px;
     overflow-x: hidden;
-    z-index: -99;
+    margin-bottom: 1%;
+    z-index: 0;
 }
+.Container-fluid {
+  position: relative;
+  z-index: 1;
+}
+
 .resau {
   height: 50px;
   width: 50px;
@@ -87,7 +93,7 @@ h1,h4{
     min-width: 300px;
 }
 .card {
-  margin: auto;
+  margin: 1%;
   top: 15px;
 }
 .card-title {
