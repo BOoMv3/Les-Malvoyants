@@ -1,156 +1,144 @@
 <!DOCTYPE html>
 <html lang="FR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta name="description" content="Le site de l'association Les Malvoyants qui à pour vocation d'informer et de sensibiliser le public à ce handicap">
-        <meta name="keywords" content="aveugle, malvoyant, handicap, association, Montpellier">
-        <meta name="author" content="Muller Tony"/>
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
-        <title>Association des Malvoyants</title>
-    </head>
-    <body>
-        <!--Header logo et navbar-->
-        <div class="Container-fluid">
-            <header class="header">
-                <a href="index.html"><h1><img class="logo" src="images/logo3.png">Les Malvoyants</h1></a>
-                <div class="colormenu">
-                    <nav class="navbar navbar-dark navbar-expand-lg">
-                    <button
-                        type="button"
-                        class="navbar-toggler"
-                        data-toggle="collapse"
-                        data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown"
-                        aria-expanded="false"  
-                        aria-label="toggle navigation"
-                    >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                        </svg>
-                    </button>
-        
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link">Acceuil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="evenement.html" class="nav-link">Evenements</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="projets.html" class="nav-link">Nos Projets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="contact.html" class="nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                </div>
-            </header>
-        </div>
-        <!--Formulaire de contact (Non fonctionelle)-->
-        <main class="main-content-contact">
-            <section class="mb-4 text-center">
-                <img src="images/contact.png" class="img-fluid" alt="contact">
-                <h2 class="h2-responsive font-weight-bold text-center">Contactez-nous !</h2>
-                <!--Section description-->
-                <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? n'hésité pas a nous contacter via cette messagerie ! Nous somme la pour vos besoins ! </p>
-                <div class="row">
-                    <div class="col-md-9 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                        
-                            <div class="row">
-                            
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <label for="name" class="font-weight-bold">Votre Nom</label>
-                                        <input type="text" id="name" name="name" class="form-control">
-                                    </div>
-                                </div>
-                            
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <label for="name" class="font-weight-bold">Votre E-mail</label>
-                                        <input type="text" id="email" name="email" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <label for="name" class="font-weight-bold">Sujet</label>
-                                        <input type="text" id="subject" name="subject" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="row">
-                            
-                                <div class="col-md-12">
-                                
-                                    <div class="md-form">
-                                        <label for="name" class="font-weight-bold">Votre Message</label>
-                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    </div>
-                                
-                                </div>
-                            </div>
-                        
-                        </form>
-                    
-                        <div class="text-center text-md-center">
-                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyé !</a>
-                        </div>
-                        <div class="status"></div>
-                    </div>
 
-                    <!--Info supplementaire-->
-                    <div class="col-md-3 text-center">
-                        <ul class="list-unstyled mb-0">
-                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                <p><img src="images/house-door.svg" alt="Adresse">  Montpellier, CP 34190, FRA</p>
-                            </li>
-                        
-                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                                <p><img src="images/phone.svg" alt="telephone">  07 86 01 XX XX</p>
-                            </li>
-                        
-                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                <p><img src="images/envelope.svg" alt="email">  pro.css@live.fr</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 text-center">
-                        <hr>
-                        <h2 class="h1-responsive font-weight-bold text-center">Nous rendre visite !</h2>
-                        <p class="text-center w-responsive mx-auto mb-5">Vous souhaitez venir nous rendre visite dans notre centre ? voici notre position. Nous vous attendons ! </p>
-                        <img src="images/map.png" class="img-fluid" alt="map">
-                    </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <meta name="description" content="Le site de l'association Les Malvoyants qui à pour vocation d'informer et de sensibiliser le public à ce handicap">
+  <meta name="keywords" content="aveugle, malvoyant, handicap, association, Montpellier">
+  <meta name="author" content="Muller Tony" />
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
+  <title>Association des Malvoyants</title>
+</head>
+
+<body>
+  <!--Header logo et navbar-->
+  <div class="Container-fluid">
+    <header class="header">
+      <h1><a href="#" target="_blank" rel=""><img class="logo" src="images/logo3.png"></a>Les Malvoyants</h1>
+      <div class="colormenu">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a href="evenement.html" class="nav-link">Evenements</a>
+              </li>
+              <li class="nav-item">
+                <a href="projets.html" class="nav-link">Nos Projets</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <!--Formulaire de contact (Non fonctionelle)-->
+  <main class="main-content-contact">
+    <section class="mb-4 text-center">
+      <img src="images/contact.png" class="img-fluid" alt="contact">
+      <h2 class="h2-responsive font-weight-bold text-center">Contactez-nous !</h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? n'hésité pas a nous contacter via cette messagerie ! Nous somme la pour vos besoins !</p>
+      <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="" method="POST">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="name" class="font-weight-bold">Votre Nom</label>
+                  <input type="text" id="name" name="name" class="form-control">
                 </div>
-            </section>
-        </main>
-    
-        <!--Pied de page est info créateur-->
-        <footer class="footer">
-            <h4>Vous pouvez aussi nous retrouvée sur nos résaux ! </h4>
-            <div class="resau">
-                <img src="images/facebook.png" class="img-fluid rounded-circle" alt="facebook">
-                <img src="images/twitter.png" class="img-fluid rounded-circle" alt="twitter">
+              </div>
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="name" class="font-weight-bold">Votre E-mail</label>
+                  <input type="text" id="email" name="email" class="form-control">
+                </div>
+              </div>
             </div>
-                <br>
-                Crée par Muller Tony. Tout droit resérvé, aucune reproduction autorisé.</br>
-                Contact: Pro.css@live.fr
-        </footer>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <label for="name" class="font-weight-bold">Sujet</label>
+                  <input type="text" id="subject" name="subject" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form">
+                  <label for="name" class="font-weight-bold">Votre Message</label>
+                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea">
+                  </textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="text-center text-md-center">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyé !</a>
+          </div>
+          <div class="status">
+          </div>
+        </div>
+        <!--Info supplementaire-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>
+                <img src="images/house-door.svg" alt="Adresse">Montpellier, CP 34190, FRA</p>
+            </li>
+            <li>
+              <i class="fas fa-phone mt-4 fa-2x"></i>
+              <p>
+                <img src="images/phone.svg" alt="telephone">07 86 01 XX XX</p>
+            </li>
+            <li>
+              <i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>
+                <img src="images/envelope.svg" alt="email">pro.css@live.fr</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-12 text-center">
+          <hr>
+          <h2 class="h1-responsive font-weight-bold text-center">Nous rendre visite !</h2>
+          <p class="text-center w-responsive mx-auto mb-5">Vous souhaitez venir nous rendre visite dans notre centre ? voici notre position. Nous vous attendons !</p>
+          <img src="images/map.png" class="img-fluid" alt="map">
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--Pied de page est info créateur-->
+  <footer class="footer">
+    <h4>Vous pouvez aussi nous retrouvée sur nos résaux !</h4>
+    <div class="resau">
+      <a href="https://www.facebook.com" target="_blank" rel="">
+          <img class="resau" src="images/facebook.png" alt="facebook"></a>
+    </div>
+    <div class="resau">
+      <a href="https://www.twitter.com" target="_blank" rel="">
+          <img src="images/twitter.png" class="resau rounded-circle" alt="twitter"></a>
+    </div>
+    <br>Crée par Muller Tony. Tout droit resérvé, aucune reproduction autorisé.</br>Contact: Pro.css@live.fr</footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
 </html>
